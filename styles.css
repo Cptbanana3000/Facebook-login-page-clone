@@ -1,0 +1,200 @@
+body {
+  background-color: #f0f2f5 !important;
+  padding: 72px 0px 112px;
+}
+
+.TheFacebookLoginPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 150px;
+    margin-top: 50px; */
+
+}
+
+.Logo-QuoteContainer{
+    display: flex; /* Enable flexbox for logo and quote */
+    flex-direction: column; /* Stack elements vertically (optional) */
+    align-items: flex-start; /* Align logo and quote to the left */
+    margin-left: 100px;
+}
+
+img {
+  width: 320px;
+  margin: inherit;
+}
+
+.FacebookLogo {
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  height: 106px;
+  margin: -28px;
+}
+
+.FacebookQuote{
+    font-size: 24px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    width: auto;
+    color: #1c1e21;
+    font-weight: normal;
+    padding: 0;
+}
+
+.FacebookForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f2f5;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 370px;
+  padding: 20px 0 28px;
+  margin-right: 150px;
+    margin-top: 50px;
+  
+}
+
+.LoginInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  /* margin-bottom: 15px; */
+}
+
+.FacebookPassword {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  /* margin-bottom: 15px; */
+}
+
+#FacebookLoginButton {
+  color: #ffff;
+  background: #0866ff;
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 0px 16px;
+  width: 332px;
+  line-height: 48px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 13px;
+}
+
+#CreateNewAccount {
+  text-decoration: none;
+  background: #43b72a;
+  color: #ffff;
+  padding: 0 16px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 192px;
+  line-height: 48px;
+  border: none;
+  border-radius: 6px;
+}
+
+.Mrline {
+    padding: 0px 178px;
+    
+  border: none; /* Remove default border */
+  border-top: 1px solid #ccc; /* Add a thin top border */
+  margin: 25px 0;
+}
+
+.Forgotten-Password-Link {
+  text-decoration: none;
+  color: #0866ff;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.Forgotten-Password-Link:hover{
+    text-decoration: underline;
+}
+
+#FacebookLoginButton:hover{
+    background: #0867ffef;
+    cursor: pointer;
+    
+}
+
+#CreateNewAccount:hover{
+    background: #40ac27;
+}
+
+.createpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 28px ;
+    color: #1C1E21;
+    font-weight: bold;
+    margin-left: 530px; /* Push the .createpage to the right */
+    margin-right: auto;
+    
+
+
+}
+
+
+
+
+
+span{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.858);
+    display: inline;
+    text-decoration: none;
+    
+
+}
+
+
+
+/* Your existing styles */
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Adjust body padding for smaller screens */
+    }
+
+    .TheFacebookLoginPage {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center children horizontally on smaller screens */
+        margin-top: 20px; /* Adjust top margin for smaller screens */
+    }
+
+    .Logo-QuoteContainer {
+        margin-left: auto; /* Reset left margin to default on smaller screens */
+    }
+
+    .FacebookForm {
+        margin-left: auto; /* Reset left margin to default on smaller screens */
+        margin-right: auto; /* Reset right margin to default on smaller screens */
+    }
+
+    .createpage {
+        margin-left: auto; /* Reset left margin to default on smaller screens */
+        margin-right: auto; /* Reset right margin to default on smaller screens */
+        margin-top: 20px; /* Adjust top margin for smaller screens */
+    }
+}
+
+
+
+
